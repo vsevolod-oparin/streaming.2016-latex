@@ -1,0 +1,48 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{fullpage}
+\usepackage[russian]{babel}
+\usepackage{amssymb}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{amsthm,amsmath,amsfonts,amssymb}
+\usepackage{graphicx}
+
+\lstset{
+    language=Python,
+    commentstyle=\color{gray!80!white}
+}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue
+}
+
+\newcommand{\ProbSimple}[1]{\mathbf{#1}}
+\newcommand{\ProbSign}[3]{\underset{#2}{\ProbSimple{#1}}\left[\;#3\;\right]}
+\renewcommand{\Pr}[2]{\ProbSign{Pr}{#1}{#2}}
+\newcommand{\Prw}[1]{\Pr{}{#1}}
+\newcommand{\Ex}[2]{\ProbSign{E}{#1}{#2}}
+\newcommand{\Exw}[1]{\Ex{}{#1}}
+\newcommand{\Dp}[2]{\ProbSign{D}{#1}{#2}}
+\newcommand{\Dpw}[1]{\Dp{}{#1}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\Prr}{\ProbSimple{Pr}}
+\newcommand{\solut}[2]{\textit{\paragraph{Задача.} #1}\vspace{0.2cm}\textbf{Решение. }#2\vspace{0.2cm}}
+
+
+\begin{document}
+
+\begin{center}
+    {\Large Решения задач по курсу ``Алгоритмы обработки потоковых данных''}
+    \vspace{0.3cm}
+
+    {\large Казань, 2016}
+\end{center}
+\begin{flushright}
+\color{red}{\textbf{Василий Пупкин}}\par
+\end{flushright}
+
+\input{solution.tex}
+
+\end{document}
