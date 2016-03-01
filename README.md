@@ -1,6 +1,6 @@
 # Поточные алгоритмы в Казани 2016
 
-Репозиторий с tex-исходниками для казанского [http://kzn.compsciclub.ru/courses/streaming-algorithms-club/2016-spring/|курса по поточным алгоритмам] (ссылка)
+Репозиторий с tex-исходниками для казанского [курса по поточным алгоритмам](http://kzn.compsciclub.ru/courses/streaming-algorithms-club/2016-spring/).
 
 ## Rules
 
